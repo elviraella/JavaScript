@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body onload="autoRun()">
+	<div class="slideshow-1 effect">
+		<img name="slide" id="image-1" src="images/1.jpg">
+		<h1 id="caption">Caption 1</h1>
+
+		<a class="previous-image" href="#" onclick="changeImg(-1)"><i class="fas fa-arrow-circle-left"></i></a>
+		<a class="next-image" href="#" onclick="changeImg(1)"><i class="fas fa-arrow-circle-right"></i></a>
+	</div>
+	
+	<div id="accordion">
+		<div class="panel"> <!-- first panel -->
+			 <div class="header">Caption 1</div>
+			 <div class="body show">
+				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis nisl vitae ante consectetur, ut varius sapien vehicula. Duis feugiat nec lectus vitae consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pellentesque tincidunt leo, ut scelerisque massa mattis a. Curabitur malesuada neque augue, vitae ornare mi mattis ut. Donec sodales lobortis velit nec egestas. Morbi a mi rutrum, pulvinar quam in, accumsan purus.</p>
+			</div>
+		</div>
+		<div class="panel"> <!-- second panel -->
+			 <div class="header">Caption 2</div>
+			 <div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis nisl vitae ante consectetur, ut varius sapien vehicula. Duis feugiat nec lectus vitae consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pellentesque tincidunt leo, ut scelerisque massa mattis a. Curabitur malesuada neque augue, vitae ornare mi mattis ut. Donec sodales lobortis velit nec egestas. Morbi a mi rutrum, pulvinar quam in, accumsan purus.</p>
+			 </div>
+		</div>
+		<div class="panel"> <!-- third panel -->
+			 <div class="header">Caption 3</div>
+			 <div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis nisl vitae ante consectetur, ut varius sapien vehicula. Duis feugiat nec lectus vitae consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pellentesque tincidunt leo, ut scelerisque massa mattis a. Curabitur malesuada neque augue, vitae ornare mi mattis ut. Donec sodales lobortis velit nec egestas. Morbi a mi rutrum, pulvinar quam in, accumsan purus.</p>
+			 </div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
